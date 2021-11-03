@@ -1,0 +1,104 @@
+.feedbackBlock {
+  width: 100%;
+}
+.feedbackH1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+  color: #202a3a;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.feedbackP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #313f58;
+  margin-bottom: 50px;
+}
+.sliderBtn {
+  width: 82px;
+  height: 82px;
+  background: #ffffff;
+  box-shadow: 20px 33px 74px rgba(204, 208, 221, 0.25);
+  border-radius: 100%;
+}
+.sliderBlock {
+  width: 893px;
+  overflow: hidden;
+}
+.sliderCard {
+  transition: 0.2s linear;
+  cursor: pointer;
+  position: relative;
+  width: 431px;
+  height: 383px;
+  border: 1px solid #f0f4f5;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 31px;
+}
+.sliderCard:hover {
+  box-shadow: -27px 27px 91px rgba(211, 217, 224, 0.3);
+}
+.sliderCardParent {
+  position: absolute;
+  width: 75%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+.sliderParentTop {
+  justify-content: space-between;
+}
+.clientName {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 28px;
+  color: #202a3a;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.clientProfession {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 23px;
+  color: #313f58;
+}
+.sliderContentTxt {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #313f58;
+}
+.clientRating p {
+  font-weight: normal;
+  font-size: 22px;
+  margin-left: 5px;
+  color: #313f58;
+}
+.sliderParent {
+  transition: all ease 1s;
+  left: 0;
+  width: 1848px;
+  position: relative;
+}
+.clientsBlockButtonLeft {
+  margin-right: 40px;
+}
+.clientsBlockButtonRight {
+  margin-left: 40px;
+}
+.clientsBlock {
+  margin-bottom: 50px;
+}
+@media (max-width: 920px) {
+  .feedbackBlock {
+    display: none;
+  }
+}

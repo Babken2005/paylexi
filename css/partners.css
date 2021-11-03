@@ -1,0 +1,37 @@
+.partnersBlock {
+  width: 100%;
+}
+.partnersBlock h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  color: #2a2a38;
+  margin-top: 50px;
+}
+.partnersBlock p {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #8993ad;
+}
+.partnersParent {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+@media (max-width: 920px) {
+  .partnersBlock {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .partnersParent {
+    margin-top: 25px;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .partnersBlock h1 {
+    font-size: 3.2em;
+    margin-bottom: 15px;
+  }
+}

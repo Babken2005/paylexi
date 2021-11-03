@@ -1,0 +1,71 @@
+.secureBlock {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.secureRight {
+  max-width: 560px;
+}
+.secureRight h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #202a3a;
+}
+.rightTxt {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  color: #313f58;
+  margin-top: 25px;  
+  margin-bottom: 25px;
+}
+.cloudeBlock {
+  margin-bottom: 15px;
+}
+.cloudeBlock p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 11px;
+  color: #202a3a;
+  margin-left: 10px;
+}
+.secureRightBtn {
+  transition: 0.2s linear;
+  width: 193px;
+  height: 62px;
+  background: #3c50e0;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+.secureRightBtn:hover {
+  background: #202a3a;
+}
+.secureRightBtn:hover .inputArrow {
+  transform: translateX(5px);
+}
+.secureRightBtn p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 13px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+@media (max-width: 920px) {
+  .secureBlock {
+    display: block;
+  }
+  .secureLeft img {
+    width: 100%;
+  }
+  .secureRight {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .secureRight h1 {
+    font-size: 3.2em;
+  }
+  .rightTxt {
+    font-size: 16px;
+  }
+}
