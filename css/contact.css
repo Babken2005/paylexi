@@ -54,4 +54,10 @@
   .pTxt {
     margin-top: 5px;
   }
+  .h1Txt {
+    font-size: 3em;
+  }
+  .contactBlock {
+    height: 70vh;
+  }
 }
