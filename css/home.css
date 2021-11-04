@@ -203,8 +203,8 @@
 @media (max-width: 920px) {
   .mobileCard {
     width: 80%;
-    display: none;
-    margin-left: 5%;
+    display: block;
+    margin-bottom: 25px;
   }
   .home {
     display: unset;
