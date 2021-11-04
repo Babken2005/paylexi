@@ -200,11 +200,41 @@
 .ri-menu-line {
   display: none;
 }
+.mobileMenu {
+  display: none;
+}
 @media (max-width: 920px) {
   .mobileCard {
     width: 80%;
     display: block;
     margin-bottom: 25px;
+  }
+  .ri-close-line {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 1.5rem;
+  }
+  .mobileMenuLinks {
+    display: grid;
+    margin-left: 15px;
+    margin-top: 76px;
+  }
+  .mobileMenuLinks a {
+    margin: 15px;
+  }
+  .mobileMenu {
+    transform: translateX(100%);
+    transition: 0.7s all ease;
+    box-shadow: 0 0.5px 6px rgb(0 11 16 / 10%);
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    position: fixed;
+    display: block;
+    width: 80%;
+    height: 100vh;
+    background-color: white;
   }
   .home {
     display: unset;
